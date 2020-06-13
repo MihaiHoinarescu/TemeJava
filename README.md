@@ -1,4 +1,2 @@
 # TemeJava
-Abandon all hope ye who enter here!
-
-This is 40% homework stuff, 60% me fucking around, have fun separating the fucking from the content.
+Tema la MAP pentru Facultatea de Informatica an 2 ID
