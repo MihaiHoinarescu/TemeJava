@@ -1,7 +1,7 @@
 package agenda.io;
 
 import agenda.model.Contact;
-import liste.ListFileReader;
+import colectii.ListFileReader;
 
 import java.io.IOException;
 import java.nio.file.Files;

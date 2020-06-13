@@ -1,4 +1,4 @@
-package liste;
+package colectii;
 
 import com.sun.istack.internal.Nullable;
 

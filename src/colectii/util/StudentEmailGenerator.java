@@ -1,6 +1,6 @@
-package liste.util;
+package colectii.util;
 
-import liste.model.Student;
+import colectii.model.Student;
 
 public class StudentEmailGenerator {
 

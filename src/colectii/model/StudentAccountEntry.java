@@ -1,4 +1,4 @@
-package liste.model;
+package colectii.model;
 
 public class StudentAccountEntry {
 

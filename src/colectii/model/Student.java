@@ -1,4 +1,4 @@
-package liste.model;
+package colectii.model;
 
 import java.util.Objects;
 

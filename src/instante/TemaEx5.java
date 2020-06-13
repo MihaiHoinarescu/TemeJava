@@ -13,11 +13,14 @@ public class TemaEx5 {
         StockRepository repository = new StockRepository(db);
 
         Scanner kb = new Scanner(System.in);
-        String input ="";
+        String input;
         System.out.println("Insert the shop name and the brand split by a comma");
 
-        while (!input.equals("exit")) {
+        while (true) {
             input = kb.nextLine();
+            if (input.equals("exit")) {
+                break;
+            }
             String[] arguments = input.split(",");
             if (arguments.length != 2) {
                 System.out.println("Invalid input!");

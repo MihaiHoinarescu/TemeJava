@@ -1,6 +1,6 @@
-package liste;
+package colectii;
 
-import liste.model.StudentAccountEntry;
+import colectii.model.StudentAccountEntry;
 
 import java.io.File;
 import java.io.FileNotFoundException;

@@ -1,9 +1,9 @@
-package liste;
+package colectii;
 
-import liste.model.Student;
-import liste.model.StudentAccountEntry;
-import liste.util.PasswordGenerator;
-import liste.util.StudentEmailGenerator;
+import colectii.model.Student;
+import colectii.model.StudentAccountEntry;
+import colectii.util.PasswordGenerator;
+import colectii.util.StudentEmailGenerator;
 
 import java.io.FileNotFoundException;
 import java.util.List;

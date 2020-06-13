@@ -1,6 +1,6 @@
-package liste;
+package colectii;
 
-import liste.model.Student;
+import colectii.model.Student;
 
 import java.io.IOException;
 import java.nio.file.Files;

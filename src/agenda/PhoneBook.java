@@ -1,7 +1,7 @@
 package agenda;
 
 import agenda.model.Contact;
-import liste.ListFileReader;
+import colectii.ListFileReader;
 
 import java.io.FileNotFoundException;
 import java.util.HashMap;

@@ -1,10 +1,10 @@
-package liste.util;
+package colectii.util;
 
 import java.util.Random;
 
 public class PasswordGenerator {
 
-    private final String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
+    private final String alphabet = "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz1234567890";
     private final Random random = new Random();
     private final int UPPER_BOUND = 32;
 

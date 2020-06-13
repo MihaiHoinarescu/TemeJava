@@ -5,15 +5,15 @@ public class StockEntry {
     private final String firma;
     private final String produs;
     private final int cantitate;
-    private final int pret_unitar;
-    private final String cod_magazin;
+    private final double pretUnitar;
+    private final String codMagazin;
 
-    public StockEntry(String firma, String produs, int cantitate, int pret_unitar, String cod_magazin) {
+    public StockEntry(String firma, String produs, int cantitate, double pretUnitar, String codMagazin) {
         this.firma = firma;
         this.produs = produs;
         this.cantitate = cantitate;
-        this.pret_unitar = pret_unitar;
-        this.cod_magazin = cod_magazin;
+        this.pretUnitar = pretUnitar;
+        this.codMagazin = codMagazin;
     }
 
     public String getFirma() {
@@ -28,11 +28,11 @@ public class StockEntry {
         return cantitate;
     }
 
-    public int getPretUnitar() {
-        return pret_unitar;
+    public double getPretUnitar() {
+        return pretUnitar;
     }
 
     public String getCodMagazin() {
-        return cod_magazin;
+        return codMagazin;
     }
 }
