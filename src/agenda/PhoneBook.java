@@ -1,7 +1,7 @@
 package agenda;
 
 import agenda.model.Contact;
-import chestiiCuFisiere.ListFileReader;
+import liste.ListFileReader;
 
 import java.io.FileNotFoundException;
 import java.util.HashMap;
