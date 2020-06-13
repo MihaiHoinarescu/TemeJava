@@ -13,8 +13,7 @@ public class StudentFileReader extends ListFileReader<Student> {
     }
 
     @Override
-    //In an ideal world it wouldn't need to be synchronized but /shrug
-    public synchronized void read() {
+    public void read() {
         content.clear();
         try {
             Files.lines(Paths.get(filePath))
@@ -29,7 +28,6 @@ public class StudentFileReader extends ListFileReader<Student> {
                                 Float.parseFloat(components[5])));
                     });
         } catch (IOException e) {
-            //idk probably send to an exception handler or something. Too lazy to do it, we don't even have UI lol
             e.printStackTrace();
         }
 

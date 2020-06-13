@@ -16,7 +16,7 @@ public class StudentCsvFileWriter {
         this.filePath = filePath;
     }
 
-    public void writeToFile(List<StudentAccountEntry> entries) {
+    public synchronized void writeToFile(List<StudentAccountEntry> entries) {
         File outputFile = new File(OUTPUT_DIR + "/" + filePath);
         try (PrintWriter writer = new PrintWriter(outputFile)) {
             entries.stream()

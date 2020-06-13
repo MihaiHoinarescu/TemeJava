@@ -25,7 +25,6 @@ public class ContactFileReader extends ListFileReader<Contact> {
                                 components[1]));
                     });
         } catch (IOException e) {
-            // Scream really loud
             e.printStackTrace();
         }
     }

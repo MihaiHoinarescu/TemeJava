@@ -29,5 +29,4 @@ public class StudentAccountEntry {
     public String getTempPassword() {
         return tempPassword;
     }
-
 }

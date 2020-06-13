@@ -22,7 +22,7 @@ public class PhoneBook {
             fileReader.read();
             buildContactMap(fileReader.getContent());
         } catch (FileNotFoundException e) {
-            // ass
+            // the dog ate it.
             e.printStackTrace();
         }
     }
